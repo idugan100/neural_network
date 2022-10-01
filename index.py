@@ -1,4 +1,6 @@
+import sys
 import numpy as np
-print('hello world')
-a=np.dot([1,1],[1,4])
-print(a)
+import matplotlib
+print('Python ',sys.version)
+print('Numpy ',np.__version__)
+print("MPL, " , matplotlib.__version__)
